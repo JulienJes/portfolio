@@ -23,6 +23,7 @@ $shadow: rgb(219, 218, 218);
     outline: none;
     border: none;
     text-decoration: none;
+    color: $black
 }
 
 section{
@@ -35,4 +36,16 @@ section{
 .icon{
     width: 2em;
     height: 2em;
+}
+
+.btn{
+    border: 1px solid $black;
+    border-radius: 25px;
+    background-color: $color-2;
+    padding: 0.5em;
+    &:hover{
+        transform: scale(1.2);
+        transition: 100ms;
+        background-color: $color-1;
+    }
 }

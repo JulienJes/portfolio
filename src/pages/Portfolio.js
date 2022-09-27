@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Btn from "../components/portfolio/Btn";
 
 function Portfolio () {
     return(
@@ -24,12 +25,7 @@ function Portfolio () {
                             <p>React.JS</p>
                         </div>
                     </div>
-                    <div className="project-button">
-                        <button>Voir le site</button>
-                    </div>
-                    <div className="project-button">
-                        <button>Voir le code source</button>
-                    </div>
+                    <Btn />
                 </div>
                 <div className="project">
                     <div className="project-image">
@@ -46,12 +42,7 @@ function Portfolio () {
                             <p>React.JS, Redux, Node.JS, Express, MongoDB</p>
                         </div>
                     </div>
-                    <div className="project-button">
-                        <button>Voir le site</button>
-                    </div>
-                    <div className="project-button">
-                        <button>Voir le code source</button>
-                    </div>
+                    <Btn />
                 </div>
                 <div className="project">
                     <div className="project-image">
@@ -68,15 +59,7 @@ function Portfolio () {
                             <p>HTML5, CSS3</p>
                         </div>
                     </div>
-                    <div className="project-button">
-                        <button>Voir le site</button>
-                    </div>
-                    <div className="project-button">
-                        <button>Voir le code source</button>
-                    </div>
-                    <div className="project-button">
-                        <button>Voir le code initial</button>
-                    </div>
+                    <Btn />
                 </div>
             </div>
         </section>

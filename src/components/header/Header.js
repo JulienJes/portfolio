@@ -5,19 +5,20 @@ function Header () {
         <header>
             <div className="logo-container">
                 <NavLink exact="true" to="/">
+                    <span></span>
                     <h1>Julien Jesionek</h1>
                 </NavLink>
             </div>
             <div className="nav-container">
                 <ul>
                     <li><NavLink exact="true" to="/aboutme">
-                        <span>Qui suis-je?</span>
+                        Qui suis-je?
                     </NavLink></li>
                     <li><NavLink exact="true" to="/portfolio">
-                        <span>Portfolio</span>
+                        Portfolio
                     </NavLink></li>
                     <li><NavLink exact="true" to="/contact">
-                        <span>Me contacter</span>
+                        Me contacter
                     </NavLink></li>
                 </ul>
             </div>
