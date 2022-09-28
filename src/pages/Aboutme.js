@@ -19,15 +19,15 @@ function About () {
                     <h2>Développement Web</h2>
                     <p>Depuis 2021</p>
                     <div className="card">
-                        <div class="card-image"> 
+                        <div className="card-image"> 
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">
+                        <div className="card-body">
+                            <div className="card-title">
                                 <h3>Freetime - Développeur Web</h3>
                                 <p>Distanciel - 3 projets en-cours</p>
                                 <p>3 mois</p>
                             </div>
-                            <div class="card-details">
+                            <div className="card-details">
                                 <p>Projets:</p>
                                 <ul>
                                     <li>Création de mon site perso<br/>(React.JS / SASS)</li>
@@ -39,15 +39,15 @@ function About () {
                         <Seeprojects />
                     </div>
                     <div className="card">
-                        <div class="card-image"> 
+                        <div className="card-image"> 
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">
+                        <div className="card-body">
+                            <div className="card-title">
                                 <h3>OpenClassrooms - Développeur Web</h3>
                                 <p>Distanciel - 6 projets réalisés</p>
                                 <p>8 mois</p>
                             </div>
-                            <div class="card-details">
+                            <div className="card-details">
                                 <p>Projets:</p>
                                 <ul>
                                     <li>Création d'un réseau social d'entreprise<br/>(React.JS / Javascript / Node.JS / Express.JS / MongoDB)</li>
@@ -66,15 +66,15 @@ function About () {
                     <h2>Recrutement</h2>
                     <p>2014 - 2021</p>
                     <div className="card">
-                        <div class="card-image"> 
+                        <div className="card-image"> 
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">
+                        <div className="card-body">
+                            <div className="card-title">
                                 <h3>Aperlead - Manager Recherche</h3>
                                 <p>15 personnes - 2M€ CA - Paris</p>
                                 <p>3 ans et demi</p>
                             </div>
-                            <div class="card-details">
+                            <div className="card-details">
                                 <p>Chasse de têtes opérationnelle et management d’une équipe de 4 personnes (dont une basée au Canada). 
                                     Intégration, formation des collaborateurs, création de KPI, refonte de la rémunération variable, Key user AD-Men, gestion des prestataires
                                     (et négociation des prix), mise en conformité RPGD et DPO, amélioration continue des méthodes, process et reportings, ...
@@ -83,15 +83,15 @@ function About () {
                         </div>
                     </div>
                     <div className="card">
-                        <div class="card-image"> 
+                        <div className="card-image"> 
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">
+                        <div className="card-body">
+                            <div className="card-title">
                                 <h3>Alexander Hughes - Chargé de recherche international</h3>
                                 <p>130 personnes - 10M€ CA - Paris</p>
                                 <p>3 ans et demi</p>
                             </div>
-                            <div class="card-details">
+                            <div className="card-details">
                                 <p>Chasse de tête, qualifications de candidats (CV, téléphone, entretiens en face à face)
                                     et suivi des missions de recrutement dans des secteurs et métiers variés.
                                 </p>
@@ -107,57 +107,57 @@ function About () {
                 </div>
                 <div className="education-body">
                     <div className="card">
-                        <div class="card-image"> 
+                        <div className="card-image"> 
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">
+                        <div className="card-body">
+                            <div className="card-title">
                                 <h3>ESC Clermont - Programme Grande Ecole</h3>
                                 <p>Clermont-Ferrand</p>
                                 <p>4 ans dont une de césure</p>
                             </div>
-                            <div class="card-details">
+                            <div className="card-details">
                                 <p>4 stages réalisés, majoritairement en recrutement</p>
                             </div>
                         </div>
                     </div>
                     <div className="card">
-                        <div class="card-image"> 
+                        <div className="card-image"> 
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">
+                        <div className="card-body">
+                            <div className="card-title">
                                 <h3>ESC Clermont - Programme Grande Ecole</h3>
                                 <p>Clermont-Ferrand (France)</p>
                                 <p>4 ans dont une de césure</p>
                             </div>
-                            <div class="card-details">
+                            <div className="card-details">
                                 <p>4 stages réalisés, majoritairement en recrutement.</p>
                             </div>
                         </div>
                     </div>
                     <div className="card">
-                        <div class="card-image"> 
+                        <div className="card-image"> 
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">
+                        <div className="card-body">
+                            <div className="card-title">
                                 <h3>University of Washington - International Business</h3>
                                 <p>Seattle (USA)</p>
                                 <p>5 mois</p>
                             </div>
-                            <div class="card-details">
+                            <div className="card-details">
                                 <p>Semestre d'échange pour deux programmes de perfectionnement en anglais orienté business.</p>
                             </div>
                         </div>
                     </div>
                     <div className="card">
-                        <div class="card-image"> 
+                        <div className="card-image"> 
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">
+                        <div className="card-body">
+                            <div className="card-title">
                                 <h3>IUT de Metz - DUT GEA</h3>
                                 <p>Metz (France)</p>
                                 <p>2 ans</p>
                             </div>
-                            <div class="card-details">
+                            <div className="card-details">
                                 <p>2 stages réalisés en RH.</p>
                             </div>
                         </div>
