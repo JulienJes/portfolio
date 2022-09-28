@@ -11,6 +11,10 @@ footer{
         padding: 0 40% 0 40%;
         & a{
             margin: auto;
+            transition: transform .25s cubic-bezier(.13,-.77,1,1.62);
+            &:hover{
+                transform: scale(1.2);
+            }
         }
     }
 }
