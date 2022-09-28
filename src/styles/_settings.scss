@@ -15,7 +15,7 @@ $shadow: rgb(219, 218, 218);
 }
 
 // Global
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,14 +23,28 @@ $shadow: rgb(219, 218, 218);
     outline: none;
     border: none;
     text-decoration: none;
-    color: $black
+    color: $black;
+}
+
+main{
+    padding: 2em;
+    background-color: $color-2;
+    background-image: url('../../public/img/backgrounds/bg2.jpg')
 }
 
 section{
     @include center-content;
-    margin: 2em 15em;
+    margin: 0 15em;
     border: 1px solid grey;
     border-radius: 1em;
+    background-color: $white;
+}
+
+a{
+    color: $color-3;
+    &:hover{
+        color: $color-1;
+    }
 }
 
 .icon{
@@ -38,7 +52,7 @@ section{
     height: 2em;
 }
 
-.btn{
+/*.btn{
     border: 1px solid $black;
     border-radius: 25px;
     background-color: $color-2;
@@ -48,4 +62,4 @@ section{
         transition: 100ms;
         background-color: $color-1;
     }
-}
+}*/

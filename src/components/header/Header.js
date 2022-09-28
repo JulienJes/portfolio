@@ -5,8 +5,7 @@ function Header () {
         <header>
             <div className="logo-container">
                 <NavLink exact="true" to="/">
-                    <span></span>
-                    <h1>Julien Jesionek</h1>
+                    <h1>&lsaquo;/&rsaquo; Julien Jesionek</h1>
                 </NavLink>
             </div>
             <div className="nav-container">
