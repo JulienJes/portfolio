@@ -1,3 +1,13 @@
+.about{
+    margin: 2em auto;
+    &-body{
+        margin: 0 1rem;
+        text-align: justify;
+    }
+}
+
 .career{
-    @include center-content;
+    //@include center-content;
+    display: flex;
+    flex-direction: column;
 }

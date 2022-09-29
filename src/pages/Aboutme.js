@@ -16,27 +16,31 @@ function About () {
             </div>
             <div className="career">
                 <div className="career-wd">
-                    <h2>Développement Web</h2>
-                    <p>Depuis 2021</p>
-                    <div className="card">
-                        <div className="card-image"> 
-                        </div>
-                        <div className="card-body">
-                            <div className="card-title">
-                                <h3>Freetime - Développeur Web</h3>
-                                <p>Distanciel - 3 projets en-cours</p>
-                                <p>3 mois</p>
+                    <div className="career-wd-header">
+                        <h2>Développement Web</h2>
+                        <p>Depuis 2021</p>
+                    </div>
+                    <div className="cards">
+                        <div className="card">
+                            <div className="card-image"> 
                             </div>
-                            <div className="card-details">
-                                <p>Projets:</p>
-                                <ul>
-                                    <li>Création de mon site perso<br/>(React.JS / SASS)</li>
-                                    <li>Construction d'un jeu textuel via navigateur<br/>(Javascript / React.JS Node.JS / Express.JS / MySQL)</li>
-                                    <li>Constuction du site vitrine d'une activité de yoga<br/>(Javascript)</li>
-                                </ul>
+                            <div className="card-body">
+                                <div className="card-title">
+                                    <h3>Freetime - Développeur Web</h3>
+                                    <p>Distanciel - 3 projets en-cours</p>
+                                    <p>3 mois</p>
+                                </div>
+                                <div className="card-details">
+                                    <p>Projets:</p>
+                                    <ul>
+                                        <li>Création de mon site perso<br/>(React.JS / SASS)</li>
+                                        <li>Construction d'un jeu textuel via navigateur<br/>(Javascript / React.JS Node.JS / Express.JS / MySQL)</li>
+                                        <li>Constuction du site vitrine d'une activité de yoga<br/>(Javascript)</li>
+                                    </ul>
+                                </div>
                             </div>
+                            <Seeprojects />
                         </div>
-                        <Seeprojects />
                     </div>
                     <div className="card">
                         <div className="card-image"> 
