@@ -1,11 +1,32 @@
+//Fonts
+@font-face {
+    font-family: "font-1";
+    src: url(./assets/fonts/JosefinSans-ExtraLight.ttf);
+  }
+  @font-face {
+    font-family: "font-2";
+    src: url(./assets/fonts/JosefinSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: "font-3";
+    src: url(./assets/fonts/JosefinSans-Bold.ttf);
+  }
+  
+  $font-1: "font-1", sans-serif;
+  $font-2: "font-2", serif;
+  $font-3: "font-3", serif;
+
 // Variables
-$color-1: #FD2D01;
-$color-2: #FFD7D7;
-$color-3: #4E5166;
-$color-4: #fdeeee;
+$color-1: #ECBA63;//#FD2D01;
+$color-2: #7A2125 ;//#FFD7D7;
+$color-3: #1F3C7A;//#4E5166;
+$color-4: #BC3C47 ;//#fdeeee;
+$color-5: #315FB6;
+$color-bg-inputtxtarea: lighten($color-4, 40%);
+$color-bg-button: $color-2;
 $black: rgb(40, 40, 40);
 $white: rgb(253, 253, 253);
-$shadow: rgb(150, 150, 150);
+$shadow: lighten($color-4, 10%);
 
 // Mixins
 @mixin center-content{
@@ -16,7 +37,9 @@ $shadow: rgb(150, 150, 150);
 
 // Global
 html{
-    height: 100%;
+    height: 100vh;
+    line-height: 1.8;
+    font-size: 16px;
 }
 
 *{
@@ -30,9 +53,13 @@ html{
     color: $black;
 }
 
+body{
+    font-family: $font-2;
+}
+
 main{
     @include center-content;
-    height: 82.9vh;
+    height: 80.4vh;
     &::after{
         content: '';
         display: block;
@@ -55,10 +82,29 @@ section{
     @include center-content;
     margin: auto;
     border: 1px solid grey;
-    border-radius: 1em;
+    border-radius: 1rem;
     background-color: $white;
     min-width: 50%;
     max-width: 80%;
+}
+
+h1, h2, h3{
+    font-family: $font-2;
+    color: $color-3;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+h2{
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
 }
 
 a{
@@ -69,18 +115,19 @@ a{
 }
 
 .icon{
-    width: 2em;
-    height: 2em;
+    width: 2rem;
+    height: 2rem;
 }
 
 .btn{
     border: 1px solid $black;
     border-radius: 25px;
-    background-color: $color-2;
-    padding: 0.5em;
+    background-color: $color-bg-button;
+    padding: 0.5rem;
+    color: $white;
     &:hover{
         transform: scale(1.2);
         transition: 100ms;
-        background-color: $color-1;
+        background-color: $color-4;
     }
 }
