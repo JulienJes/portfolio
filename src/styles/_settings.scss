@@ -59,7 +59,7 @@ body{
 
 main{
     @include center-content;
-    min-height: 81.2vh;
+    min-height: 82vh;
     &::after{
         content: '';
         display: block;
