@@ -1,7 +1,11 @@
 .about{
-    margin: 2em auto;
+    //margin: 2em auto;
+    min-width: none;
+    max-width: none;
+    border: none;
+    border-radius: unset;
+    margin-bottom: 1rem;
     &-body{
-        margin: 0 1rem;
         text-align: justify;
     }
 }
@@ -10,4 +14,13 @@
     //@include center-content;
     display: flex;
     flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    @include card;
 }

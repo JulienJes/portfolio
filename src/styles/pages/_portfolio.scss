@@ -1,0 +1,9 @@
+.portfolio{
+    &-body{
+        display: flex;
+    }
+}
+
+.project{
+    @include card;
+}
