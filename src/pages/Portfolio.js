@@ -1,12 +1,11 @@
 import { NavLink } from "react-router-dom";
-import Btn from "../components/portfolio/Btn";
 
 function Portfolio () {
     return(
         <section className="portfolio">
             <div className="portfolio-header">
                 <h2>Projets réalisés</h2>
-                <p>Voici les projets que j'ai pu mener à terme à ce jour.</p>
+                <p>Voici quelques projets que j'ai pu mener à terme à ce jour.</p>
                 <p><NavLink exact="true" to="/contact">Contactez-moi</NavLink> pour que j'ajoute le votre!</p>
             </div>
             <div className="portfolio-body">
@@ -25,7 +24,10 @@ function Portfolio () {
                             <p>React.JS</p>
                         </div>
                     </div>
-                    <Btn />
+                    <div className="project-buttons">
+                        {/*<a href="#" className="btn">Voir le site</a>*/}
+                        <a href="#" className="btn">Voir le code source</a>
+                    </div>
                 </div>
                 <div className="project">
                     <div className="project-image">
@@ -42,7 +44,10 @@ function Portfolio () {
                             <p>React.JS, Redux, Node.JS, Express, MongoDB</p>
                         </div>
                     </div>
-                    <Btn />
+                    <div className="project-buttons">
+                        {/*<a href="#" className="btn">Voir le site</a>*/}
+                        <a href="https://github.com/JulienJes/P7_Groupomania" className="btn">Voir le code source</a>
+                    </div>
                 </div>
                 <div className="project">
                     <div className="project-image">
@@ -59,7 +64,10 @@ function Portfolio () {
                             <p>HTML5, CSS3</p>
                         </div>
                     </div>
-                    <Btn />
+                    <div className="project-buttons">
+                        {/*<a href="#" className="btn">Voir le site</a>*/}
+                        <a href="https://github.com/JulienJes/P4_La_Chouette_Agence" className="btn">Voir le code source</a>
+                    </div>
                 </div>
             </div>
         </section>

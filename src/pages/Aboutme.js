@@ -22,11 +22,9 @@ function About () {
                     </div>
                     <div className="cards">
                         <div className="card">
-                            <div className="card-image"> 
-                            </div>
                             <div className="card-body">
                                 <div className="card-title">
-                                    <h3>Freelance - Développeur Web</h3>
+                                    <h3>&lsaquo;/&rsaquo; Freelance - Développeur Web</h3>
                                     <p>Distanciel - 3 projets en-cours</p>
                                     <p>3 mois</p>
                                 </div>

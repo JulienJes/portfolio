@@ -1,4 +1,8 @@
 .portfolio{
+    padding-bottom: 1rem;
+    &-header{
+        text-align: center;
+    }
     &-body{
         display: flex;
     }
@@ -6,4 +10,9 @@
 
 .project{
     @include card;
+    margin-top: 1rem;
+    &-buttons{
+        display: flex;
+        justify-content: space-around;
+    }
 }
