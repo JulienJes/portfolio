@@ -23,7 +23,7 @@ function About () {
                     <div className="cards">
                         <div className="card">
                             <div className="card-body">
-                                <div className="card-title">
+                                <div className="card-header">
                                     <h3>&lsaquo;/&rsaquo; Freelance - Développeur Web</h3>
                                     <p>Distanciel - 3 projets en-cours</p>
                                     <p>3 mois</p>
@@ -41,8 +41,11 @@ function About () {
                         </div>
                         <div className="card">
                             <div className="card-body">
-                                <div className="card-title">
-                                    <h3>OpenClassrooms - Développeur Web</h3>
+                                <div className="card-header">
+                                    <div className="card-header-title">
+                                        <img src="./img/experiences/OC.webp" alt="OpenClassrooms"/>
+                                        <h3>OpenClassrooms - Développeur Web</h3>
+                                    </div>
                                     <p>Distanciel - 6 projets réalisés</p>
                                     <p>8 mois</p>
                                 </div>
@@ -69,10 +72,8 @@ function About () {
                     </div>
                     <div className="cards">
                         <div className="card">
-                            <div className="card-image"> 
-                            </div>
                             <div className="card-body">
-                                <div className="card-title">
+                                <div className="card-header">
                                     <h3>Aperlead - Manager Recherche</h3>
                                     <p>15 personnes - 2M€ CA - Paris</p>
                                     <p>3 ans et demi</p>
@@ -89,7 +90,7 @@ function About () {
                             <div className="card-image"> 
                             </div>
                             <div className="card-body">
-                                <div className="card-title">
+                                <div className="card-header">
                                     <h3>Alexander Hughes - Chargé de recherche international</h3>
                                     <p>130 personnes - 10M€ CA - Paris</p>
                                     <p>3 ans et demi</p>
@@ -115,7 +116,7 @@ function About () {
                             <div className="card-image"> 
                             </div>
                             <div className="card-body">
-                                <div className="card-title">
+                                <div className="card-header">
                                     <h3>ESC Clermont - Programme Grande Ecole</h3>
                                     <p>Clermont-Ferrand (France)</p>
                                     <p>4 ans dont une de césure</p>
@@ -129,7 +130,7 @@ function About () {
                             <div className="card-image"> 
                             </div>
                             <div className="card-body">
-                                <div className="card-title">
+                                <div className="card-header">
                                     <h3>University of Washington - International Business</h3>
                                     <p>Seattle (USA)</p>
                                     <p>5 mois</p>
@@ -143,7 +144,7 @@ function About () {
                             <div className="card-image"> 
                             </div>
                             <div className="card-body">
-                                <div className="card-title">
+                                <div className="card-header">
                                     <h3>IUT de Metz - DUT GEA</h3>
                                     <p>Metz (France)</p>
                                     <p>2 ans</p>
