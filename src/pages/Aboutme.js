@@ -55,7 +55,7 @@ function About () {
                                         <li>Création d'un réseau social d'entreprise<br/>(React.JS / Javascript / Node.JS / Express.JS / MongoDB)</li>
                                         <li>Construction d'une API sécurisée pour une application d'avis gastronomique<br/>(Javascript / Node.JS / Express.JS / MongoDB)</li>
                                         <li>Constuction d'un site e-commerce<br/>(Javascript)</li>
-                                        <li>Optimisation d'un site web existant(HTML5 / CSS3)</li>
+                                        <li>Optimisation d'un site web existant<br/>(HTML5 / CSS3)</li>
                                         <li>Dynamisation d'une page web<br/>(HTML5 / SASS)</li>
                                         <li>Intégration d'une maquette<br/>(HTML5 / CSS3)</li>
                                     </ul>
@@ -74,7 +74,10 @@ function About () {
                         <div className="card">
                             <div className="card-body">
                                 <div className="card-header">
-                                    <h3>Aperlead - Manager Recherche</h3>
+                                    <div className="card-header-title">
+                                        <img src="./img/experiences/aperlead.webp" alt="aperlead"/>
+                                        <h3>Aperlead - Manager Recherche</h3>
+                                    </div>
                                     <p>15 personnes - 2M€ CA - Paris</p>
                                     <p>3 ans et demi</p>
                                 </div>
@@ -87,11 +90,12 @@ function About () {
                             </div>
                         </div>
                         <div className="card">
-                            <div className="card-image"> 
-                            </div>
                             <div className="card-body">
                                 <div className="card-header">
-                                    <h3>Alexander Hughes - Chargé de recherche international</h3>
+                                    <div className="card-header-title">
+                                        <img src="./img/experiences/AlexanderHughes.webp" alt="Alexander Hughes"/>
+                                        <h3>Alexander Hughes - Chargé de recherche international</h3>
+                                    </div>
                                     <p>130 personnes - 10M€ CA - Paris</p>
                                     <p>3 ans et demi</p>
                                 </div>
@@ -113,11 +117,12 @@ function About () {
                 <div className="education-body">
                     <div className="cards">
                         <div className="card">
-                            <div className="card-image"> 
-                            </div>
                             <div className="card-body">
                                 <div className="card-header">
-                                    <h3>ESC Clermont - Programme Grande Ecole</h3>
+                                    <div className="card-header-title">
+                                        <img src="./img/experiences/ESC.webp" alt="ESC Clermont"/>
+                                        <h3>ESC Clermont - Programme Grande Ecole</h3>
+                                    </div>
                                     <p>Clermont-Ferrand (France)</p>
                                     <p>4 ans dont une de césure</p>
                                 </div>
@@ -131,7 +136,10 @@ function About () {
                             </div>
                             <div className="card-body">
                                 <div className="card-header">
-                                    <h3>University of Washington - International Business</h3>
+                                    <div className="card-header-title">
+                                        <img src="./img/experiences/Washington.webp" alt="University of Washington"/>
+                                        <h3>University of Washington - International Business</h3>
+                                    </div>
                                     <p>Seattle (USA)</p>
                                     <p>5 mois</p>
                                 </div>
@@ -141,11 +149,12 @@ function About () {
                             </div>
                         </div>
                         <div className="card">
-                            <div className="card-image"> 
-                            </div>
                             <div className="card-body">
                                 <div className="card-header">
-                                    <h3>IUT de Metz - DUT GEA</h3>
+                                    <div className="card-header-title">
+                                        <img src="./img/experiences/IUT.webp" alt="IUT de Metz"/>
+                                        <h3>IUT de Metz - DUT GEA</h3>
+                                    </div>
                                     <p>Metz (France)</p>
                                     <p>2 ans</p>
                                 </div>

@@ -23,4 +23,14 @@
 
 .card{
     @include card;
+    &-header:not(h3){
+        font-weight: bold;
+    }
+    &-header-title{
+        display: flex;
+        align-items: center;
+        & img{
+            margin-right: 1rem;
+        }
+    }
 }
