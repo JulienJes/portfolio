@@ -20,8 +20,8 @@ function Portfolio () {
                         <div className="project-body-goal">
                             <p>Création de mon portfolio</p>
                         </div>
-                        <div className="project-body-technos">
-                            <p>React.JS</p>
+                        <div className="technos">
+                            <span className="react">React.JS</span>
                         </div>
                     </div>
                     <div className="project-buttons">
@@ -40,8 +40,12 @@ function Portfolio () {
                         <div className="project-body-goal">
                             <p>Création d'un réseau social d'entreprise</p>
                         </div>
-                        <div className="project-body-technos">
-                            <p>React.JS, Redux, Node.JS, Express, MongoDB</p>
+                        <div className="technos">
+                            <span className="react">React.JS</span>
+                            <span className="redux">Redux</span>
+                            <span className="node">Node.JS</span>
+                            <span className="express">Express</span>
+                            <span className="mongodb">MongoDB</span>
                         </div>
                     </div>
                     <div className="project-buttons">
@@ -60,8 +64,9 @@ function Portfolio () {
                         <div className="project-body-goal">
                             <p>Optimisation d'un site web existant</p>
                         </div>
-                        <div className="project-body-technos">
-                            <p>HTML5, CSS3</p>
+                        <div className="technos">
+                            <span className="html">HTML5</span>
+                            <span className="css">CSS3</span>
                         </div>
                     </div>
                     <div className="project-buttons">
