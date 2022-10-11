@@ -11,8 +11,16 @@
 .project{
     @include card;
     margin-top: 1rem;
+    box-sizing: content-box;
+    text-align: center;
     &-buttons{
         display: flex;
         justify-content: space-around;
+    }
+    &-image{
+        & img{
+            max-width: 17rem;
+            object-fit: cover;
+        }
     }
 }

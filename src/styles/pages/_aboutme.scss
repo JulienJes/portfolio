@@ -11,7 +11,6 @@
 }
 
 .career{
-    //@include center-content;
     display: flex;
     flex-direction: column;
 }
@@ -30,8 +29,8 @@
         display: flex;
         align-items: center;
         & img{
-            //width: 30px;
-            //height: 30px;
+            width: 40px;
+            height: 40px;
             margin-right: 0.5rem;
         }
     }
@@ -42,5 +41,6 @@
     }
     &-more{
         margin-top: 0.5rem;
+        text-align: center;
     }
 }

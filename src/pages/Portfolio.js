@@ -55,7 +55,7 @@ function Portfolio () {
                 </div>
                 <div className="project">
                     <div className="project-image">
-
+                        <img src="./img/sites/chouetteagence.png" alt="La Chouette Agence"/>
                     </div>
                     <div className="project-header">
                         <h3>La Chouette Agence</h3>
