@@ -5,7 +5,8 @@ function Header () {
         <header>
             <div className="logo-container">
                 <NavLink exact="true" to="/">
-                    <h1>&lsaquo;/&rsaquo; Julien Jesionek</h1>
+                    <img src="./img/logo/logo.webp" alt="logo"/>
+                    <h1>Julien Jesionek</h1>
                 </NavLink>
             </div>
             <div className="nav-container">
