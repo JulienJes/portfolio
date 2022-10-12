@@ -17,12 +17,12 @@ function About () {
                 </div>
                 <div className="career">
                     <div className="career-wd">
-                        <div className="career-wd-header">
+                        <div className="career-wd-header fadein--1">
                             <h2>Développement Web</h2>
                             <p>Depuis 2021</p>
                         </div>
                         <div className="cards">
-                            <div className="card">
+                            <div className="card fadein--2">
                                 <div className="card-body">
                                     <div className="card-header">
                                         <div className="card-header-title">
@@ -46,7 +46,7 @@ function About () {
                                 </div>
                                 <Seeprojects />
                             </div>
-                            <div className="card">
+                            <div className="card fadein--3">
                                 <div className="card-body">
                                     <div className="card-header">
                                         <div className="card-header-title">
@@ -77,12 +77,12 @@ function About () {
                         </div>
                     </div>
                     <div className="career-hh">
-                        <div className="career-hh-header">
+                        <div className="career-hh-header fadein--4">
                             <h2>Recrutement</h2>
                             <p>2014 - 2021</p>
                         </div>
                         <div className="cards">
-                            <div className="card">
+                            <div className="card fadein--5">
                                 <div className="card-body">
                                     <div className="card-header">
                                         <div className="card-header-title">
@@ -100,7 +100,7 @@ function About () {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card fadein--6">
                                 <div className="card-body">
                                     <div className="card-header">
                                         <div className="card-header-title">
@@ -121,13 +121,13 @@ function About () {
                     </div>
                 </div>
                 <div className="education">
-                    <div className="education-header">
+                    <div className="education-header fadein--7">
                         <h2>Formation initiale</h2>
                         <p>2008 - 2014</p>
                     </div>
                     <div className="education-body">
                         <div className="cards">
-                            <div className="card">
+                            <div className="card fadein--8">
                                 <div className="card-body">
                                     <div className="card-header">
                                         <div className="card-header-title">
@@ -142,7 +142,7 @@ function About () {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card fadein--9">
                                 <div className="card-image"> 
                                 </div>
                                 <div className="card-body">
@@ -159,7 +159,7 @@ function About () {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card">
+                            <div className="card fadein--10">
                                 <div className="card-body">
                                     <div className="card-header">
                                         <div className="card-header-title">

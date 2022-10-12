@@ -9,7 +9,7 @@ function Portfolio () {
                 <p><NavLink exact="true" to="/contact">Contactez-moi</NavLink> pour que j'ajoute le votre!</p>
             </div>
             <div className="portfolio-body">
-                <div className="project">
+                <div className="project fadein--1">
                     <div className="project-image">
 
                     </div>
@@ -29,7 +29,7 @@ function Portfolio () {
                         <a href="#" className="btn">Voir le code source</a>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project fadein--2">
                     <div className="project-image">
 
                     </div>
@@ -53,7 +53,7 @@ function Portfolio () {
                         <a href="https://github.com/JulienJes/P7_Groupomania" className="btn">Voir le code source</a>
                     </div>
                 </div>
-                <div className="project">
+                <div className="project fadein--3">
                     <div className="project-image">
                         <img src="./img/sites/chouetteagence.png" alt="La Chouette Agence"/>
                     </div>
