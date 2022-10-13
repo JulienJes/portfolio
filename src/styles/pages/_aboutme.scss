@@ -4,10 +4,44 @@
     max-width: none;
     border: none;
     border-radius: unset;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     &-body{
         text-align: justify;
     }
+}
+
+.wd, .hh, .education{
+    
+}
+
+.head{
+    line-height: 1.5rem;
+    margin: 1rem 0 1rem 0;
+    border-bottom: 2px solid $color-5;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    & p{
+        margin: 0.6rem 0 0 0.5rem;
+        font-weight: bold;
+    }
+}
+
+.infos{
+    display: flex;
+    margin-top: 1.5rem;
+    text-align: justify;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    & img{
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        margin-right: 1rem;
+    }  
 }
 
 .career{
@@ -18,12 +52,18 @@
 .cards{
     display: flex;
     justify-content: space-between;
+    background-color: lighten($color-5, 40%);
+    border-radius: 25px
 }
 
 .card{
     @include card;
     &-header:not(h3){
         font-weight: bold;
+        line-height: 1.5;
+        & p:first-of-type{
+            margin-top: 0.5rem;
+        }
     }
     &-header-title{
         display: flex;
