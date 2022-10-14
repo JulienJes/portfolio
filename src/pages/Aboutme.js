@@ -37,7 +37,7 @@ function About () {
                                             <h3>Freelance - Développeur Web</h3>
                                         </div>
                                         <p>Distanciel</p>
-                                        <p>3 mois</p>
+                                        <p>Depuis septembre 2021</p>
                                     </div>
                                     <div className="card-details">
                                         <p>3 projets dont 2 en-cours.</p>
