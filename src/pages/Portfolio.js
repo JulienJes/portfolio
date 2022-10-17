@@ -31,7 +31,7 @@ function Portfolio () {
                 </div>
                 <div className="project fadein--2">
                     <div className="project-image">
-
+                        <img src="./img/sites/groupomania.webp" alt="Groupomania"/>
                     </div>
                     <div className="project-header">
                         <h3>Groupomania</h3>
@@ -55,7 +55,7 @@ function Portfolio () {
                 </div>
                 <div className="project fadein--3">
                     <div className="project-image">
-                        <img src="./img/sites/chouetteagence.png" alt="La Chouette Agence"/>
+                        <img src="./img/sites/chouetteagence.webp" alt="La Chouette Agence"/>
                     </div>
                     <div className="project-header">
                         <h3>La Chouette Agence</h3>

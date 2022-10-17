@@ -28,7 +28,7 @@ function About () {
                             <h2>Développement Web</h2>
                             <p>- Depuis 2021</p>
                         </div>
-                        <div className="cards">
+                        <div className="cards bgfadein--1">
                             <div className="card fadein--2">
                                 <div className="card-body">
                                     <div className="card-header">
@@ -91,7 +91,7 @@ function About () {
                             <h2>Recrutement</h2>
                             <p>- 2014 - 2021</p>
                         </div>
-                        <div className="cards">
+                        <div className="cards bgfadein--2">
                             <div className="card fadein--5">
                                 <div className="card-body">
                                     <div className="card-header">
@@ -136,7 +136,7 @@ function About () {
                         <p>- 2008 - 2014</p>
                     </div>
                     <div className="education-body">
-                        <div className="cards">
+                        <div className="cards bgfadein--3">
                             <div className="card fadein--8">
                                 <div className="card-body">
                                     <div className="card-header">

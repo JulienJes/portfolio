@@ -1,6 +1,9 @@
 .contact{
     &-body{
         width: 100%;
+        & p{
+            text-align: center;
+        }
     }
 }
 

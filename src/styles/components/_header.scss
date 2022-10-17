@@ -18,6 +18,10 @@ header{
     }
 }
 
+.active{
+    color: $color-2;
+}
+
 .nav-container{
     display: flex;
     align-items: center;
@@ -28,6 +32,9 @@ header{
         justify-content: space-around;
         & li{
             font-weight: bold;
+            & a:active{
+                color: $color-2;
+            }
         }
     }
 }

@@ -9,19 +9,19 @@ function Header () {
                     <h1>Julien Jesionek</h1>
                 </NavLink>
             </div>
-            <div className="nav-container">
+            <nav className="nav-container">
                 <ul>
-                    <li><NavLink exact="true" to="/aboutme">
+                    <li><NavLink exact="true" to="/aboutme" className={({ isActive }) => (isActive ? "active" : "inactive")}>
                         Qui suis-je?
                     </NavLink></li>
-                    <li><NavLink exact="true" to="/portfolio">
+                    <li><NavLink exact="true" to="/portfolio" className={({ isActive }) => (isActive ? "active" : "inactive")}>
                         Portfolio
                     </NavLink></li>
-                    <li><NavLink exact="true" to="/contact">
+                    <li><NavLink exact="true" to="/contact" className={({ isActive }) => (isActive ? "active" : "inactive")}>
                         Me contacter
                     </NavLink></li>
                 </ul>
-            </div>
+            </nav>
         </header>
     );
 };
