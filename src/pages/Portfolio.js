@@ -1,4 +1,7 @@
 import { NavLink } from "react-router-dom";
+import { SiReact, SiMongodb, SiRedux, SiJavascript, SiExpress, SiHtml5, SiCss3 } from "react-icons/si";
+import { DiNodejs } from "react-icons/di";
+
 
 function Portfolio () {
     return(
@@ -6,6 +9,7 @@ function Portfolio () {
             <div className="portfolio-header">
                 <h2>Projets réalisés</h2>
                 <p>Voici quelques projets que j'ai pu mener à terme à ce jour.</p>
+                <p>Consultez mon <a href="https://github.com/JulienJes" alt="GitHub">GitHub</a> pour en voir d'autres.</p>
                 <p><NavLink exact="true" to="/contact">Contactez-moi</NavLink> pour que j'ajoute le vôtre!</p>
             </div>
             <div className="portfolio-body">
@@ -21,7 +25,7 @@ function Portfolio () {
                             <p>Création de mon portfolio</p>
                         </div>
                         <div className="technos">
-                            <span className="react">React.JS</span>
+                        <span><SiReact fill="#5ED3F3" title="React.js" /></span>
                         </div>
                     </div>
                     <div className="project-buttons">
@@ -41,11 +45,12 @@ function Portfolio () {
                             <p>Création d'un réseau social d'entreprise</p>
                         </div>
                         <div className="technos">
-                            <span className="react">React.JS</span>
-                            <span className="redux">Redux</span>
-                            <span className="node">Node.JS</span>
-                            <span className="express">Express</span>
-                            <span className="mongodb">MongoDB</span>
+                            <span><SiReact fill="#5ED3F3" title="React.js" /></span>
+                            <span><SiRedux fill="#7649BB" title="Redux" /></span>
+                            <span><SiJavascript fill="#EFD81D" title="Javascript" /></span>
+                            <span><DiNodejs fill="#639A58" title="Node.js" /></span>
+                            <span><SiExpress fill="#384752" title="Express.js" /></span>
+                            <span><SiMongodb fill="#4AB13C" title="MongoDB" /></span>
                         </div>
                     </div>
                     <div className="project-buttons">
@@ -65,8 +70,8 @@ function Portfolio () {
                             <p>Optimisation d'un site web existant</p>
                         </div>
                         <div className="technos">
-                            <span className="html">HTML5</span>
-                            <span className="css">CSS3</span>
+                            <span><SiHtml5 fill="#D66538" title="HTML" /></span>
+                            <span><SiCss3 fill="#4397C9" title="CSS" /></span>
                         </div>
                     </div>
                     <div className="project-buttons">

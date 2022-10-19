@@ -160,55 +160,12 @@ a{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    & svg{
+        height: 2rem;
+        width: 2rem;
+    }
     & span{
         padding: 0 0.5rem;
-        border-radius: 10px;
         margin: 0.5rem auto;
     }
-}
-
-.react{
-    background-color: #5ED3F3;
-}
-
-.javascript{
-    background-color: #EFD81D;
-}
-
-.node{
-    background-color: #639A58;
-}
-
-.express{
-    background-color: #384752;
-    color: $white;
-}
-
-.mysql{
-    background-color: #D88700;
-}
-
-.sass{
-    background-color: #C76293;
-}
-
-.wordpress{
-    background-color: #1F6F93;
-    color: $white;
-}
-
-.mongodb{
-    background-color: #4AB13C;
-}
-
-.html{
-    background-color: #D66538;
-}
-
-.css{
-    background-color: #4397C9;
-}
-
-.redux{
-    background-color: #7649BB;
 }
