@@ -10,12 +10,12 @@ function Portfolio () {
                 <h2>Projets réalisés</h2>
                 <p>Voici quelques projets que j'ai pu mener à terme à ce jour.</p>
                 <p>Consultez mon <a href="https://github.com/JulienJes" alt="GitHub">GitHub</a> pour en voir d'autres.</p>
-                <p><NavLink exact="true" to="/contact">Contactez-moi</NavLink> pour que j'ajoute le vôtre!</p>
+                <p><NavLink exact="true" to="/contact">Contactez-moi</NavLink> pour que j'ajoute le vôtre !</p>
             </div>
             <div className="portfolio-body">
                 <div className="project fadein--1">
                     <div className="project-image">
-
+                        <img src="./img/sites/portfolio.webp" alt="Portfolio"/>
                     </div>
                     <div className="project-header">
                         <h3>Portfolio</h3>

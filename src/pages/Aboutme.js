@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import Seeprojects from '../components/cv/Seeprojects';
 
 function About () {
@@ -14,11 +15,11 @@ function About () {
                             <h2>Informations</h2>
                         </div>
                         <div className="infos-body">
-                            <p>Ancien chasseur de tête, je suis désormais développeur web: j'ai développé mes compétences en HTML, CSS,
-                                Javascript et ai réalisé des projets en React.JS.
-                                Je compte exprimer ma créativité au sein d'une structure désireuse d'apporter ou d'entretenir de l'adaptabilité,
-                                de l'organisation ou une effervescence collaborative au sein de ses équipes. Je m’intéresse particulièrement aux opportunités luxembourgeoises
-                                et des grandes villes françaises. Que ce soit pour aujourd'hui ou pour demain, je serai ravi d'échanger avec vous sur les enjeux du web !</p>
+                            <p>De formation initiale école de commerce, j'ai officié pendant 7 ans en tant que <strong>chasseur de tête</strong>. Courant 2021, 
+                                j'ai entrepris une reconversion professionnelle pour me rapprocher d'un métier correspondant davantage à ma personnalité.
+                                Depuis lors, je suis <strong>développeur web</strong> : j'ai réalisé plusieurs projets (<strong>HMTL, CSS, Javascript, Express, React, ... </strong>) avant de perfectionner mes compétences
+                                en autodidacte. Je suis passioné à l'idée de rendre le web accessible, performant & maintenable et j'aime y exprimer ma créativité.
+                                Actuellement en <strong>recherche d'un emploi</strong> au Luxembourg, dans le Grand-Est ou en distanciel, n'hésitez pas à <NavLink exact="true" to="/contact" alt="Me contacter">me contacter</NavLink> !</p>
                         </div>
                     </div>
                 </div>
