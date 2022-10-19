@@ -42,15 +42,6 @@ function About () {
                                     <div className="card-details">
                                         <p>3 projets dont 2 en-cours.</p>
                                         <p>Pour complêter mes connaissances, je réalise des projets sur les technos que je n'ai pas vu chez OpenClassrooms tels que <strong>MySQL</strong>, <strong>Wordpress</strong>, etc.</p>
-                                        {/*<div className="technos">
-                                            <span className="react">React.JS</span>
-                                            <span className="javascript">Javascript</span>
-                                            <span className="node">Node.JS</span>
-                                            <span className="express">Express.JS</span>
-                                            <span className='mysql'>MySQL</span>
-                                            <span className="sass">SASS</span>
-                                            <span className="wordpress">Wordpress</span>
-                                        </div>*/}
                                     </div>
                                 </div>
                                 <Seeprojects />
@@ -68,18 +59,6 @@ function About () {
                                     <div className="card-details">
                                         <p>6 projets réalisés.</p>
                                         <p>De projets front à des projets fullstack en passant par le back, j'ai développé mes connaissances sur plusieurs technos tout en étant grandement sensibilisé à l'<strong>accessibilité</strong>, le <strong>SEO</strong>, la <strong>performance</strong> et la <strong>maintenabilité</strong> du code.</p>
-                                        {/*<div className="technos">
-                                            <span className="react">React.JS</span>
-                                            <span className="javascript">Javascript</span>
-                                            <span className="node">Node.JS</span>
-                                            <span className="express">Express.JS</span>
-                                            <span className="mysql">MySQL</span>
-                                            <span className="mongodb">MongoDB</span>
-                                            <span className="html">HTML5</span>
-                                            <span className="css">CSS3</span>
-                                            <span className="sass">SASS</span>
-                                            <span className="wordpress">Wordpress</span>
-                                        </div>*/}
                                     </div>
                                 </div>
                                 <Seeprojects />

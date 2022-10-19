@@ -22,7 +22,7 @@ function Portfolio () {
                     </div>
                     <div className="project-body">
                         <div className="project-body-goal">
-                            <p>Création de mon portfolio</p>
+                            <p><strong>Création</strong> de mon portfolio</p>
                         </div>
                         <div className="technos">
                         <span><SiReact fill="#5ED3F3" title="React.js" /></span>
@@ -42,7 +42,7 @@ function Portfolio () {
                     </div>
                     <div className="project-body">
                         <div className="project-body-goal">
-                            <p>Création d'un réseau social d'entreprise</p>
+                            <p><strong>Création</strong> d'un réseau social d'entreprise de A à Z</p>
                         </div>
                         <div className="technos">
                             <span><SiReact fill="#5ED3F3" title="React.js" /></span>
@@ -67,7 +67,7 @@ function Portfolio () {
                     </div>
                     <div className="project-body">
                         <div className="project-body-goal">
-                            <p>Optimisation d'un site web existant</p>
+                            <p><strong>Optimisation</strong> d'un site web existant (accessibilité, SEO, performance)</p>
                         </div>
                         <div className="technos">
                             <span><SiHtml5 fill="#D66538" title="HTML" /></span>
