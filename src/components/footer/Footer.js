@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-import OnClick from '../events/onclick';
 
 // SVG to react components in order to modify them
 const SvgMail = (props) => (
@@ -46,9 +45,9 @@ function Footer () {
                 <p>© Julien Jesionek, Développeur Web.</p>
             </div>
             <div id='icons'>
-                <NavLink exact="true" to="/contact" alt="Me contacter"><SvgMail /></NavLink>
-                <a href="https://www.linkedin.com/in/julien-jesionek-bb6a1932/" alt="LinkedIn" onClick={OnClick}><SvgLinkedin /></a>
-                <a href="https://github.com/JulienJes" alt="GitHub" onClick={OnClick}><SvgGit /></a>
+                <NavLink exact="true" to="/contact" title="Me contacter"><SvgMail /></NavLink>
+                <a href="https://www.linkedin.com/in/julien-jesionek-bb6a1932/" title="LinkedIn" target="_blank" rel="noopener noreferrer"><SvgLinkedin /></a>
+                <a href="https://github.com/JulienJes" title="GitHub" target="_blank" rel="noopener noreferrer"><SvgGit /></a>
             </div>
         </footer>
     );

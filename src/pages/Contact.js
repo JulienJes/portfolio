@@ -5,7 +5,7 @@ function Contact() {
                 <h2>Me contacter</h2>
             </div>
             <div className="contact-body">
-                <p>Tous les champs sont obligatoires</p>
+                <p>Tous les champs sont obligatoires.</p>
                 <form action="https://formsubmit.co/julien.jesionek@gmail.com" method="POST">
                     <div className="field">
                         <label for="name">Nom</label>
@@ -21,7 +21,7 @@ function Contact() {
                     </div>
                     <div className="field">
                         <label for="message">Message</label>
-                        <textarea id="msg" name="user_message" placeholder="Votre message" required></textarea>
+                        <textarea id="message" name="user_message" placeholder="Votre message" required></textarea>
                     </div>
                     <div className="button">
                         <button type="submit" className="btn">Envoyer !</button>

@@ -2,14 +2,17 @@
 @font-face {
     font-family: "font-1";
     src: url(./assets/fonts/JosefinSans-ExtraLight.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family: "font-2";
     src: url(./assets/fonts/JosefinSans-Regular.ttf);
+    font-display: swap;
 }
 @font-face {
     font-family: "font-3";
     src: url(./assets/fonts/JosefinSans-Bold.ttf);
+    font-display: swap;
 }
 
 $font-1: "font-1", sans-serif;
@@ -86,7 +89,7 @@ main{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-image: url('../../public/img/backgrounds/bg3.webp');
+        background-image: url('../../public/img/backgrounds/bg.webp');
         opacity: 1;
         z-index: -101;
     }
