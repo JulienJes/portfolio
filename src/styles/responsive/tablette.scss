@@ -2,7 +2,7 @@
 
     // SETTINGS ------------------------
     main{
-        min-height: 74.5vh;
+        min-height: 85vh;
         &::after{
         }
     }
@@ -49,6 +49,9 @@
         border-radius: unset;
         margin: unset;
         max-width: 100%;
+        @media screen and (min-height:1179px){
+            padding: 2rem 0;
+        }
         &-body{
             flex-wrap: wrap;
             justify-content: center;
