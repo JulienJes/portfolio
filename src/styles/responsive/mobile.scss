@@ -1,3 +1,101 @@
 @media screen and (max-width:767px) {
     
+    // SETTINGS ------------------------
+    main{
+        min-height: 70vh;
+    }
+
+    // HEADER ------------------------
+    .logo-container{
+        display: flex;
+        align-items: center;
+        margin-left: 0.2rem;
+    }
+
+    .nav-container{
+        padding-right: 1rem;
+        & ul{
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
+
+    //HOME ------------------------
+    .home{
+        max-width: unset;
+        width: 100%;
+        border-radius: unset;
+    }
+
+    //ABOUTME ------------------------
+    .about{
+        padding: 0 0.5rem;
+    }
+
+    .infos{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .head{
+        width: 90%;
+    }
+
+    .cards{
+        flex-direction: column;
+        & .card{
+            width: 100%;
+            margin-right: unset;
+            &:first-child{
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .education{
+        &-body{
+            & .cards{
+                flex-direction: column;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                & .card{
+                    width: 100%;
+                    margin-right: unset;
+                    &:first-child{
+                        margin-right: unset;
+                    }
+                }
+            }
+        }
+    }
+
+    // PORTFOLIO ------------------------
+    .portfolio{
+        &-body{
+            & .project{
+                width: 100%;
+                &:not(:last-child){
+                }
+                &:first-child{
+                    margin-right: unset;
+                    margin-bottom: unset;
+                }
+            }
+        }
+    }
+
+    // CONTACTME ------------------------
+    .contact{
+        max-width: unset;
+        width: 100%;
+        border-radius: unset;
+    }
+
+    //FOOTER ------------------------
+    footer{
+        & div{
+            padding: unset;
+        }
+    }
 }
