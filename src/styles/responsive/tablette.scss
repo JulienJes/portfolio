@@ -3,6 +3,9 @@
     //SETTINGS ------------------------
     main{
         min-height: 85vh;
+        &::after{
+            height: 102%;
+        }
     }
 
     //HEADER ------------------------
