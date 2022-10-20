@@ -1,13 +1,11 @@
 @media screen and (max-width:991px) {
 
-    // SETTINGS ------------------------
+    //SETTINGS ------------------------
     main{
         min-height: 85vh;
-        &::after{
-        }
     }
 
-    // HEADER ------------------------
+    //HEADER ------------------------
     .nav-container{
         width: 40%;
     }

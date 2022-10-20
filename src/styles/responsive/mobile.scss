@@ -1,15 +1,11 @@
 @media screen and (max-width:767px) {
-    
-    // SETTINGS ------------------------
-    main{
-        min-height: 70vh;
-    }
 
-    // HEADER ------------------------
+    //SETTINGS ------------------------
+
+    //HEADER ------------------------
     .logo-container{
         display: flex;
         align-items: center;
-        margin-left: 0.2rem;
     }
 
     .nav-container{
@@ -25,6 +21,7 @@
         max-width: unset;
         width: 100%;
         border-radius: unset;
+        margin: auto;
     }
 
     //ABOUTME ------------------------
@@ -39,7 +36,7 @@
     }
 
     .head{
-        width: 90%;
+        width: 100%;
     }
 
     .cards{
@@ -75,8 +72,6 @@
         &-body{
             & .project{
                 width: 100%;
-                &:not(:last-child){
-                }
                 &:first-child{
                     margin-right: unset;
                     margin-bottom: unset;
