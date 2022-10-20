@@ -13,17 +13,21 @@
     margin-top: 1rem;
     box-sizing: content-box;
     text-align: center;
+    padding: unset;
     &-buttons{
         display: flex;
         justify-content: space-around;
         & a{
             padding: 0.2rem 0.5rem;
+            margin-bottom: 1rem;
         }
     }
     &-image{
         & img{
-            max-width: 17rem;
+            width: 100%;
             height: 200px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
             object-fit: cover;
         }
     }
