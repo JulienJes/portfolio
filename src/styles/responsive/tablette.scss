@@ -1,0 +1,85 @@
+@media screen and (max-width:991px) {
+
+    // SETTINGS ------------------------
+    main{
+        min-height: 74.5vh;
+        &::after{
+        }
+    }
+
+    // HEADER ------------------------
+    .nav-container{
+        width: 40%;
+    }
+
+    //HOME ------------------------
+    .home{
+        width: 70%;
+    }
+
+    //ABOUTME ------------------------
+    .container{
+        max-width: 100%;
+    }
+
+    .education{
+        &-body{
+            & .cards{
+                flex-wrap: wrap;
+                justify-content: center;
+                border-bottom-left-radius: 250px;
+                border-bottom-right-radius: 250px;
+                & .card{
+                    width: 47%;
+                    &:not(:last-child){
+                        margin-right: unset;
+                        margin-bottom: 1rem;
+                    }
+                    &:first-child{
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    // PORTFOLIO ------------------------
+    .portfolio{
+        border: unset;
+        border-radius: unset;
+        margin: unset;
+        max-width: 100%;
+        &-body{
+            flex-wrap: wrap;
+            justify-content: center;
+            & .project{
+                width: 47%;
+                &:not(:last-child){
+                    margin-right: unset;
+                    margin-bottom: 1rem;
+                }
+                &:first-child{
+                    margin-right: 1rem;
+                }
+                &:last-child{
+                    margin-top: unset;
+                }
+            }
+        }
+    }
+
+    // CONTACTME ------------------------
+    .contact{
+        width: 70%;
+    }
+
+    //FOOTER ------------------------
+    footer{
+        & div{
+            padding: 0 10%;
+        }
+        & #icons{
+            padding: 0 25%;
+        }
+    }
+}
