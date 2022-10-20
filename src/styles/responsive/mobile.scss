@@ -1,6 +1,12 @@
 @media screen and (max-width:767px) {
 
     //SETTINGS ------------------------
+    main{
+        min-height: 85vh;
+        &::after{
+            height: 105%;
+        }
+    }
 
     //HEADER ------------------------
     .logo-container{
