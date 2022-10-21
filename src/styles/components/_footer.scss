@@ -6,7 +6,7 @@ footer{
     padding: 1em 0 1em 0;
     background-color: white;
     text-align: center;
-    & > div {
+    & div:first-child {
         margin-bottom: 0.5rem;
     }
     & div{

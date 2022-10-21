@@ -76,7 +76,7 @@ body{
 
 main{
     @include center-content;
-    min-height: 80.5vh;
+    min-height: 76vh;
     &::after{
         content: '';
         display: block;
