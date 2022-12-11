@@ -30,7 +30,7 @@ function Portfolio () {
                     </div>
                     <div className="project-buttons">
                         {/*<a href="#" className="btn">Voir le site</a>*/}
-                        <a href="#" className="btn" target="_blank" rel="noopener noreferrer">Voir le code source</a>
+                        <a href="https://github.com/JulienJes/portfolio" className="btn" target="_blank" rel="noopener noreferrer">Voir le code source</a>
                     </div>
                 </div>
                 <div className="project fadein--2">
