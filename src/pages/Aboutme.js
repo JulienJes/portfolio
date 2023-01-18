@@ -41,8 +41,8 @@ function About () {
                                         <p>Depuis septembre 2021</p>
                                     </div>
                                     <div className="card-details">
-                                        <p>3 projets dont 2 en-cours.</p>
-                                        <p>Pour complêter mes connaissances, je réalise des projets sur les technos que je n'ai pas vu chez OpenClassrooms tels que <strong>MySQL</strong>, <strong>Wordpress</strong>, etc.</p>
+                                        <p>4 projets dont 2 en-cours.</p>
+                                        <p>Pour complêter mes connaissances, je réalise des projets sur les technos que je n'ai pas vu chez OpenClassrooms tels que <strong>MySQL</strong>, <strong>Wordpress</strong>, <strong>C#</strong> etc.</p>
                                     </div>
                                 </div>
                                 <Seeprojects />
