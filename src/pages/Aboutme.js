@@ -19,7 +19,7 @@ function About () {
                                 j'ai entrepris une reconversion professionnelle pour me rapprocher d'un métier correspondant davantage à ma personnalité.
                                 Depuis lors, je suis <strong>développeur web</strong> : j'ai réalisé plusieurs projets (<strong>HMTL, CSS, Javascript, Express, React, ... </strong>) avant de perfectionner mes compétences
                                 en autodidacte. Je suis passioné à l'idée de rendre le web accessible, performant & maintenable et j'aime y exprimer ma créativité.
-                                Actuellement en <strong>recherche d'un emploi</strong> au Luxembourg, dans le Grand-Est ou en distanciel, n'hésitez pas à <NavLink exact="true" to="/contact" alt="Me contacter">me contacter</NavLink> !</p>
+                                Actuellement en <strong>freelance</strong> au Luxembourg, dans le Grand-Est ou en distanciel, n'hésitez pas à <NavLink exact="true" to="/contact" alt="Me contacter">me contacter</NavLink> pour vos projets !</p>
                         </div>
                     </div>
                 </div>
