@@ -30,6 +30,8 @@ $color-bg-button: $color-2;
 $black: rgb(40, 40, 40);
 $white: rgb(253, 253, 253);
 $shadow: lighten($color-4, 10%);
+$header-height: 5rem;
+$footer-height: 8.5rem;
 
 // Mixins
 @mixin center-content{
@@ -77,6 +79,12 @@ body{
 main{
     @include center-content;
     min-height: 76vh;
+}
+
+.main-container{
+    min-height: calc(100vh - (#{$header-height} + #{$footer-height}));
+    width: 100%;
+    position: relative;
     &::after{
         content: '';
         display: block;
