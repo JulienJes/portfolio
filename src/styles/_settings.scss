@@ -76,12 +76,8 @@ body{
     font-family: $font-2;
 }
 
-main{
-    @include center-content;
-    min-height: 76vh;
-}
-
 .main-container{
+    @include center-content;
     min-height: calc(100vh - (#{$header-height} + #{$footer-height}));
     width: 100%;
     position: relative;
