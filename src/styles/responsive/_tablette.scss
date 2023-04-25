@@ -1,9 +1,6 @@
 @media screen and (max-width:991px) {
 
     //SETTINGS ------------------------
-    main{
-        min-height: 85vh;
-    }
 
     //HEADER ------------------------
     .nav-container{
@@ -16,11 +13,8 @@
     }
 
     //ABOUTME ------------------------
-    .container{
-        max-width: 100%;
-    }
-
     .education{
+        padding: 0 0 1rem 0;
         &-body{
             & .cards{
                 flex-wrap: wrap;
@@ -46,10 +40,15 @@
         border: unset;
         border-radius: unset;
         margin: unset;
-        margin-bottom: 160px;
+        padding: 0 0 1rem 0;
         max-width: 100%;
+        background-color: unset;
         @media screen and (min-height:1179px){
             padding: 2rem 0;
+        }
+        &-header{
+            background-color: white;
+            width: 100%;
         }
         &-body{
             flex-wrap: wrap;
